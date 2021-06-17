@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SWII_C195.jnlp">
+  <information>
+    <title>SWII_C195</title>
+    <vendor>parkerchristy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SWII_C195.jar" size="50589" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="834091" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SWII_C195" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="swii_c195.SWII_C195"  name="SWII_C195" />
+  <update check="always"/>
+</jnlp>
